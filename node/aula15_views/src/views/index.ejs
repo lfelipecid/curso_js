@@ -1,0 +1,38 @@
+<%- include('includes/head') %>
+    <section class="container">
+        <h1>
+            <!-- 
+                <% Controle de fluxo (if, for...) %>
+                <%= Imprime tudo (com código HTML) %>
+                <%- Imprime sem escapar (Imprime HTML) %>
+                <#  Comentário #>
+                <#- include('PATH/FILE') #> Addiciona template
+
+             -->
+
+            <!-- <% if(typeof(titulo) !== 'undefined') { %>
+                <%= titulo %>
+            <% } else { %>
+                Titulo não foi enviado.
+            <% } %> -->
+
+            <!-- <% numeros.forEach(num => {%>
+                <%= num %>
+            <% }) %> -->
+
+            Lorem ipsum dolor sit amet
+
+        </h1>
+
+        <form action="/" method="post">
+            <label>Cliente</label>
+            <input type="text" name="name">
+            <label>E-mail</label>
+            <input type="text" name="email">
+            <button>Submit</button>
+        </form>
+
+
+    </section>
+
+<%- include('includes/footer') %>

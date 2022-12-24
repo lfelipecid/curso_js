@@ -1,0 +1,11 @@
+npm inity -y | Iniciar JS
+npm i --save-dev @babel/preset-env @babel/core @babel/cli babel-loader webpack webpack-cli regenerator-runtime core-js@2 | Installação basica
+npm run load_webpack
+
+
+
+
+
+
+## OUTROS
+npm i --save-dev | Instala dependecias no local
