@@ -5,8 +5,8 @@ import loginRequired from '../middlewares/tokenMiddleware'
 const router = new Router()
 
 // Home
-router.get('/', userController.index)
-router.get('/:id', userController.show)
+router.get('/', loginRequired, userController.index)
+router.get('/:id', loginRequired, userController.show)
 
 router.post('/', userController.create)
 router.put('/', loginRequired, userController.update)
